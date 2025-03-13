@@ -106,8 +106,8 @@ h2{
   color: black;
   font-size: 3.2rem;
   margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 
   font-family: "Tiro Bangla", serif;
   font-weight: 400;
@@ -117,8 +117,6 @@ h2{
 #introTextOne{
   color: black;
   font-size: 1.7rem;
-  margin-right: 10px;
-  margin-left: 10px;
   text-align: center;
 
   font-family: "Tiro Bangla", serif;
@@ -129,8 +127,6 @@ h2{
 #introTextTwo{
   color: black;
   font-size: 1rem;
-  margin-right: 10px;
-  margin-left: 10px;
   text-align: center;
 
   font-family: "Tiro Bangla", serif;
