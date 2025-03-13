@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #610094, #46006c, #2e0047, #000000);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  max-height: 100%;
+  
+}
+
+header{
+  background: linear-gradient(#46006c);
+  height: 100px;
+  max-width: 100%;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  align-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+button{
+  display: inline-block;
+  padding: 20px 50px;
+  margin-top: 20px;
+  background-color: #46006c;
+  border: 3px solid #2e0047;
+  border-radius: 7px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-bottom: 10px;
+
+
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+button:hover{
+  background-color: #8900d2;
+  color:#2e0047;
+  transform: translateY(-10px)
+}
+
+.contents {
+  font-size: clamp (50px 1vw 100px);
+}
+
+.introContainer{
+  width: 50%;
+  position: absolute;
+  background-color: rgba(169, 169, 169, 0.773);
+  border-radius: 2rem;
+  margin-top: 27vh;
+  margin-left: -22.5%;
+  place-content: center;
+  text-align: center;
+  vertical-align: middle;
+  max-height: 100%;
+}
+
+.introContainer::after, .introContainer::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(#8e00db,#610094, #8e00db);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 5px;
+  border-radius: 2rem;
+  animation: 3s spin linear infinite;
+}
+
+.introContainer::before{
+  filter: blur(1.5rem);
+  opacity: 1;
+}
+
+
+.welcome{
+  color: black;
+  font-size: 3.5rem;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#introTextOne{
+  color: black;
+  font-size: 1.7rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+#introTextTwo{
+  color: black;
+  font-size: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  text-align: center;
+}
+
